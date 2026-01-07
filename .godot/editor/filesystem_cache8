@@ -1,0 +1,42 @@
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1767774875
+asset sources.txt::TextFile::-1::1749026845::0::1::::<><>::
+icon.svg::CompressedTexture2D::5991746675164270125::1749026517::1767773911::1::::<><>::
+player.gd::GDScript::-1::1767774858::0::1::::<>Node2D<>::
+player.tscn::PackedScene::9085135802544900083::1767774858::0::1::::<><>::res://player.gd<>uid://bkgrir378horu
+::res://audio/::1767773910
+S31-City on Speed.ogg::AudioStreamOggVorbis::8977675062932144427::1749026659::1767773910::1::::<><>::
+::res://fonts/::1767773909
+Better VCR 9.0.1.ttf::FontFile::525264482665087361::1734690158::1767773909::1::::<><>::
+Crackman.otf::FontFile::8409775716835545339::1748957356::1767773909::1::::<><>::
+::res://graphics/::1767773911
+map.png::CompressedTexture2D::8154739344879193416::1748954101::1767773911::1::::<><>::
+::res://graphics/cars/::1767773911
+green.png::CompressedTexture2D::8921634929582336167::1748893962::1767773911::1::::<><>::
+red.png::CompressedTexture2D::987328342467456120::1748893908::1767773911::1::::<><>::
+yellow.png::CompressedTexture2D::7448227804407725056::1748868104::1767773911::1::::<><>::
+::res://graphics/objects/::1767773911
+barrier.png::CompressedTexture2D::6896529938505155778::1748892303::1767773911::1::::<><>::
+bench.png::CompressedTexture2D::6429655348521337844::1748954231::1767773911::1::::<><>::
+bin.png::CompressedTexture2D::2682534749361739666::1748892320::1767773911::1::::<><>::
+box1.png::CompressedTexture2D::1752621948406411336::1748892361::1767773911::1::::<><>::
+box2.png::CompressedTexture2D::6315073086859623796::1748892375::1767773911::1::::<><>::
+box3.png::CompressedTexture2D::6209916766526943924::1748892390::1767773911::1::::<><>::
+green car.png::CompressedTexture2D::4714005770761932689::1748953785::1767773911::1::::<><>::
+house1.png::CompressedTexture2D::9000159394168210468::1748953631::1767773911::1::::<><>::
+house2.png::CompressedTexture2D::8778240621995606057::1748954544::1767773911::1::::<><>::
+house3.png::CompressedTexture2D::2304218856311349850::1748954562::1767773911::1::::<><>::
+light.png::CompressedTexture2D::138251092854304931::1748954131::1767773911::1::::<><>::
+line.png::CompressedTexture2D::4370422361334549835::1748892493::1767773911::1::::<><>::
+red car.png::CompressedTexture2D::5238494849298767641::1748953761::1767773911::1::::<><>::
+sign.png::CompressedTexture2D::1016072921141247133::1748892343::1767773911::1::::<><>::
+taxi.png::CompressedTexture2D::2174422772300677415::1748953740::1767773911::1::::<><>::
+traffic.png::CompressedTexture2D::5133731283848118079::1748954285::1767773911::1::::<><>::
+tree1.png::CompressedTexture2D::8952052314239774675::1748892248::1767773911::1::::<><>::
+tree2.png::CompressedTexture2D::1743130296563490364::1748892271::1767773911::1::::<><>::
+tree potted.png::CompressedTexture2D::3389544860567921485::1748954209::1767773911::1::::<><>::
+::res://graphics/player/::1767773911
+player_simple.png::CompressedTexture2D::3101742799475853270::1748868073::1767773911::1::::<><>::
+player_tileset.png::CompressedTexture2D::6843235375669234817::1748888431::1767773911::1::::<><>::
+::res://scenes/::1767774705
+game.tscn::PackedScene::1767103725331575474::1767774705::0::1::::<><>::uid://doghmovcgeltw<>uid://d2o54hmo31jd0
