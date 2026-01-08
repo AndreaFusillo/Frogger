@@ -1,19 +1,16 @@
-[gd_scene load_steps=6 format=3 uid="uid://0f86732hhgxe"]
+[gd_scene load_steps=6 format=3 uid="uid://d10fi0rlnbtv1"]
 
 [ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_2u74h"]
-[ext_resource type="PackedScene" uid="uid://d2o54hmo31jd0" path="res://player.tscn" id="2_njguu"]
 [ext_resource type="Texture2D" uid="uid://d0so81ys3820n" path="res://graphics/objects/tree1.png" id="3_k0nba"]
 [ext_resource type="Texture2D" uid="uid://cfe22lwgaf1k2" path="res://graphics/objects/traffic.png" id="4_1ta8j"]
 [ext_resource type="Texture2D" uid="uid://ded8huv3lr1a7" path="res://graphics/cars/yellow.png" id="5_2gfxa"]
+[ext_resource type="PackedScene" uid="uid://d2o54hmo31jd0" path="res://scenes/player.tscn" id="5_rxx0k"]
 
 [node name="Game" type="Node2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(194, 324)
 texture = ExtResource("1_2u74h")
-
-[node name="Player" parent="." instance=ExtResource("2_njguu")]
-position = Vector2(91, 521)
 
 [node name="Tree1" type="Sprite2D" parent="."]
 position = Vector2(157, 557)
@@ -34,3 +31,6 @@ texture = ExtResource("4_1ta8j")
 position = Vector2(53, 474)
 scale = Vector2(2, 2)
 texture = ExtResource("5_2gfxa")
+
+[node name="Player" parent="." instance=ExtResource("5_rxx0k")]
+position = Vector2(233, 417)

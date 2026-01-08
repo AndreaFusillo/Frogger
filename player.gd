@@ -8,19 +8,9 @@ var speed : int = 5
 
 func _physics_process(delta: float):
 	
-	if Input.is_action_pressed("right"):
-		direction = Vector2.RIGHT
-	
-	if Input.is_action_pressed("left"):
-		direction = Vector2.LEFT
-	
-	if Input.is_action_pressed("up"):
-		direction = Vector2.UP
-	
-	if Input.is_action_pressed("down"):
-		direction = Vector2.DOWN
-	
+	direction = Input.get_vector("left","right","up","down")
 	position += direction * speed
 	
-	
-	
+	if(Input.is_action_just_pressed("spazio")):
+		print("Rone")
+
