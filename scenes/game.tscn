@@ -1,36 +1,52 @@
 [gd_scene load_steps=6 format=3 uid="uid://d10fi0rlnbtv1"]
 
 [ext_resource type="Texture2D" uid="uid://doghmovcgeltw" path="res://graphics/map.png" id="1_2u74h"]
-[ext_resource type="Texture2D" uid="uid://d0so81ys3820n" path="res://graphics/objects/tree1.png" id="3_k0nba"]
-[ext_resource type="Texture2D" uid="uid://cfe22lwgaf1k2" path="res://graphics/objects/traffic.png" id="4_1ta8j"]
-[ext_resource type="Texture2D" uid="uid://ded8huv3lr1a7" path="res://graphics/cars/yellow.png" id="5_2gfxa"]
+[ext_resource type="PackedScene" uid="uid://1cywkjto722j" path="res://tree.tscn" id="3_lnu2h"]
 [ext_resource type="PackedScene" uid="uid://d2o54hmo31jd0" path="res://scenes/player.tscn" id="5_rxx0k"]
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lnu2h"]
+size = Vector2(20, 676)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_lbhrr"]
+size = Vector2(384, 20)
+
 [node name="Game" type="Node2D"]
+position = Vector2(-3, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(194, 324)
+position = Vector2(193, 320)
 texture = ExtResource("1_2u74h")
 
-[node name="Tree1" type="Sprite2D" parent="."]
-position = Vector2(157, 557)
-scale = Vector2(3, 3)
-texture = ExtResource("3_k0nba")
-
-[node name="Tree2" type="Sprite2D" parent="."]
-position = Vector2(245, 554)
-scale = Vector2(3, 3)
-texture = ExtResource("3_k0nba")
-
-[node name="Traffic" type="Sprite2D" parent="."]
-position = Vector2(351, 469)
-scale = Vector2(3, 3)
-texture = ExtResource("4_1ta8j")
-
-[node name="Yellow" type="Sprite2D" parent="."]
-position = Vector2(53, 474)
-scale = Vector2(2, 2)
-texture = ExtResource("5_2gfxa")
-
 [node name="Player" parent="." instance=ExtResource("5_rxx0k")]
-position = Vector2(233, 417)
+position = Vector2(218, 382)
+
+[node name="tree" parent="." instance=ExtResource("3_lnu2h")]
+position = Vector2(245, 542)
+
+[node name="Borders" type="Node2D" parent="."]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Borders"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D"]
+position = Vector2(-9, 310)
+shape = SubResource("RectangleShape2D_lnu2h")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Borders"]
+position = Vector2(404, 5)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D2"]
+position = Vector2(-9, 310)
+shape = SubResource("RectangleShape2D_lnu2h")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Borders"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D3"]
+position = Vector2(193, -9)
+shape = SubResource("RectangleShape2D_lbhrr")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Borders"]
+position = Vector2(0, 659)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D4"]
+position = Vector2(193, -9)
+shape = SubResource("RectangleShape2D_lbhrr")
