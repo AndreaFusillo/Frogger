@@ -1,14 +1,21 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1767878729
+::res://::1767966632
 .gitignore.txt::TextFile::-1::1767877198::0::1::::<><><>0<>0<><>::
 asset sources.txt::TextFile::-1::1767877198::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::5991746675164270125::1767877198::1767877198::1::::<><><>0<>0<>e48a28d72baa158d8bf005dafc8996b7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-player.gd::GDScript::8496235590967814825::1767877607::0::1::::<>Node2D<><>0<>0<><>::
+player.gd::GDScript::8496235590967814825::1767950159::0::1::::<>CharacterBody2D<><>0<>0<><>::
+car.tscn::PackedScene::8493797042998142856::1767965706::0::1::::<><><>0<>0<><>::uid://ded8huv3lr1a7::::res://graphics/cars/yellow.png<>uid://brqfxvp6mvmi4::::res://car.gd
+car.gd::GDScript::3613006855416045925::1767965490::0::1::::<>Area2D<><>0<>0<><>::
+Title.tscn::PackedScene::7244416164943893682::1767966299::0::1::::<><><>0<>0<><>::
 ::res://audio/::1767877198
 S31-City on Speed.ogg::AudioStreamOggVorbis::8977675062932144427::1767877198::1767877198::1::::<><><>0<>0<>6a19a5d98227eeea5167bfcfc2d2e4d1<>res://.godot/imported/S31-City on Speed.ogg-ac786f73a31395cb077a5bf379e46f56.oggvorbisstr::
-::res://fonts/::1767877198
+::res://fonts/::1767966660
 Better VCR 9.0.1.ttf::FontFile::525264482665087361::1767877198::1767877198::1::::<><><>0<>0<>b631a0b7b7257c6824ecd73cc876e2c3<>res://.godot/imported/Better VCR 9.0.1.ttf-0b419d366d973ba1e1c2e6cc67cd81b7.fontdata::
 Crackman.otf::FontFile::8409775716835545339::1767877198::1767877198::1::::<><><>0<>0<>7349641e5093360427e4006c8fb08924<>res://.godot/imported/Crackman.otf-07c10da7ed8c2bafac2e3556ecebe10c.fontdata::
+OldLondon.ttf::FontFile::8485316549368188937::1767966660::1767966676::1::::<><><>0<>0<>1718e8b2eae7bd93bab76fe1c95656f2<>res://.godot/imported/OldLondon.ttf-d41a5f0259d43b78fc236796206724f9.fontdata::
+OldLondonAlternate.ttf::FontFile::3479253255752867633::1767966660::1767966676::1::::<><><>0<>0<>beaff4f2e82ea2efa774691f313a7f5f<>res://.godot/imported/OldLondonAlternate.ttf-2205d6fb42bcb7ddb5eaf1c7c510d5f7.fontdata::
+Olondona.otf::FontFile::5072473687136492419::1767966660::1767966676::1::::<><><>0<>0<>2389912b8aafd789ecc03a87258b6634<>res://.godot/imported/Olondona.otf-294a14b769c16ab56b57540ef07676f7.fontdata::
+Olondon_.otf::FontFile::6729795127024891507::1767966660::1767966676::1::::<><><>0<>0<>e503d24f4c74f6ffd6a4824877b86117<>res://.godot/imported/Olondon_.otf-aa7eba8dab8e08a93b1cb57618c6a523.fontdata::
 ::res://graphics/::1767877198
 map.png::CompressedTexture2D::8154739344879193416::1767877198::1767877198::1::::<><><>0<>0<>5e983dd93bed5c53f0b2ce6c40b67502<>res://.godot/imported/map.png-4c90a2691f1826b62871a53c820579c2.ctex::
 ::res://graphics/cars/::1767877198
@@ -38,6 +45,9 @@ tree potted.png::CompressedTexture2D::3389544860567921485::1767877198::176787719
 ::res://graphics/player/::1767877198
 player_simple.png::CompressedTexture2D::3101742799475853270::1767877198::1767877198::1::::<><><>0<>0<>bd70e05f6be89bfb518380939a630383<>res://.godot/imported/player_simple.png-da0d067e94fb2205dce5f6ce7ba473b7.ctex::
 player_tileset.png::CompressedTexture2D::6843235375669234817::1767877198::1767877198::1::::<><><>0<>0<>57da6118fda4b4b1e047f76078c00f8f<>res://.godot/imported/player_tileset.png-4ca3aae43be08322f35644f77e38bfeb.ctex::
-::res://scenes/::1767878717
-game.tscn::PackedScene::9036100640697363752::1767878717::0::1::::<><><>0<>0<><>::uid://doghmovcgeltw::::res://graphics/map.png<>uid://d0so81ys3820n::::res://graphics/objects/tree1.png<>uid://cfe22lwgaf1k2::::res://graphics/objects/traffic.png<>uid://ded8huv3lr1a7::::res://graphics/cars/yellow.png<>uid://d2o54hmo31jd0::::res://scenes/player.tscn
-player.tscn::PackedScene::9085135802544900083::1767878365::0::1::::<><><>0<>0<><>::uid://dtbv02isha7hl::::res://player.gd<>uid://bkgrir378horu::::res://graphics/player/player_simple.png
+::res://scenes/::1767965490
+area_2d.gd::GDScript::3174624487446685101::1767950513::0::1::::<>Area2D<><>0<>0<><>::
+game.gd::GDScript::2080263026981193462::1767965490::0::1::::<>Node2D<><>0<>0<><>::
+game.tscn::PackedScene::9036100640697363752::1767963825::0::1::::<><><>0<>0<><>::uid://doghmovcgeltw::::res://graphics/map.png<>uid://4vxvmd16aeo1::::res://scenes/game.gd<>uid://1cywkjto722j::::res://scenes/tree.tscn<>uid://blh2upk7qkk6x::::res://scenes/area_2d.gd<>uid://d2o54hmo31jd0::::res://scenes/player.tscn
+player.tscn::PackedScene::9085135802544900083::1767962805::0::1::::<><><>0<>0<><>::uid://dtbv02isha7hl::::res://player.gd<>uid://c4q6c7mxqh78h::::res://graphics/player/player_tileset.png
+tree.tscn::PackedScene::1830535725409277195::1767962805::0::1::::<><><>0<>0<><>::uid://d0so81ys3820n::::res://graphics/objects/tree1.png

@@ -1,4 +1,12 @@
-res://player.gd
-res://scenes/player.tscn
+res://scenes/game.gd
 res://scenes/game.tscn
-res://tree.tscn
+res://player.gd
+res://scenes/area_2d.gd
+res://car.tscn
+res://car.gd
+res://scenes/player.tscn
+res://scenes/tree.tscn
+res://Title.tscn
+res://title.gd
+res://global.tscn
+res://global.gd

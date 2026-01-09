@@ -20,6 +20,7 @@ func _process(delta: float) -> void:
 size = Vector2(10, 16)
 
 [node name="StaticBody2D" type="StaticBody2D"]
+collision_mask = 0
 script = SubResource("GDScript_brfkd")
 
 [node name="tree" type="Sprite2D" parent="."]
